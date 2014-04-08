@@ -14,13 +14,20 @@
 		377612C518EFA65D008AB160 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 377612C418EFA65D008AB160 /* main.m */; };
 		377612C918EFA65D008AB160 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 377612C818EFA65D008AB160 /* AppDelegate.m */; };
 		377612CC18EFA65D008AB160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377612CA18EFA65D008AB160 /* Main.storyboard */; };
-		377612CF18EFA65D008AB160 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377612CE18EFA65D008AB160 /* ViewController.m */; };
+		377612CF18EFA65D008AB160 /* SpeechSynthesisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377612CE18EFA65D008AB160 /* SpeechSynthesisViewController.m */; };
 		377612D118EFA65D008AB160 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377612D018EFA65D008AB160 /* Images.xcassets */; };
 		377612D818EFA65D008AB160 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377612D718EFA65D008AB160 /* XCTest.framework */; };
 		377612D918EFA65D008AB160 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377612B818EFA65D008AB160 /* Foundation.framework */; };
 		377612DA18EFA65D008AB160 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377612BC18EFA65D008AB160 /* UIKit.framework */; };
 		377612E218EFA65D008AB160 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 377612E018EFA65D008AB160 /* InfoPlist.strings */; };
 		377612E418EFA65D008AB160 /* _014_Spring_ReadToMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377612E318EFA65D008AB160 /* _014_Spring_ReadToMeTests.m */; };
+		377612EE18EFB8C0008AB160 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377612ED18EFB8C0008AB160 /* AVFoundation.framework */; };
+		377612F118F279F0008AB160 /* PrerecordedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377612F018F279F0008AB160 /* PrerecordedViewController.m */; };
+		377612F718F27C4C008AB160 /* QuickFox.wav in Resources */ = {isa = PBXBuildFile; fileRef = 377612F618F27C4C008AB160 /* QuickFox.wav */; };
+		377612F918F27E67008AB160 /* QuickBrown.plist in Resources */ = {isa = PBXBuildFile; fileRef = 377612F818F27E67008AB160 /* QuickBrown.plist */; };
+		377612FC18F39879008AB160 /* PrompterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377612FB18F39879008AB160 /* PrompterViewController.m */; };
+		37988D5A18F2E7F200021373 /* QuickBrown.txt in Resources */ = {isa = PBXBuildFile; fileRef = 37988D5918F2E7F200021373 /* QuickBrown.txt */; };
+		37988D5E18F2E88900021373 /* audacityToPlist.pl in Resources */ = {isa = PBXBuildFile; fileRef = 37988D5D18F2E88900021373 /* audacityToPlist.pl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +52,23 @@
 		377612C718EFA65D008AB160 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		377612C818EFA65D008AB160 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		377612CB18EFA65D008AB160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		377612CD18EFA65D008AB160 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		377612CE18EFA65D008AB160 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		377612CD18EFA65D008AB160 /* SpeechSynthesisViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeechSynthesisViewController.h; sourceTree = "<group>"; };
+		377612CE18EFA65D008AB160 /* SpeechSynthesisViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeechSynthesisViewController.m; sourceTree = "<group>"; };
 		377612D018EFA65D008AB160 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		377612D618EFA65D008AB160 /* 2014-Spring-ReadToMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2014-Spring-ReadToMeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		377612D718EFA65D008AB160 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		377612DF18EFA65D008AB160 /* 2014-Spring-ReadToMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2014-Spring-ReadToMeTests-Info.plist"; sourceTree = "<group>"; };
 		377612E118EFA65D008AB160 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		377612E318EFA65D008AB160 /* _014_Spring_ReadToMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _014_Spring_ReadToMeTests.m; sourceTree = "<group>"; };
+		377612ED18EFB8C0008AB160 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		377612EF18F279F0008AB160 /* PrerecordedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrerecordedViewController.h; sourceTree = "<group>"; };
+		377612F018F279F0008AB160 /* PrerecordedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrerecordedViewController.m; sourceTree = "<group>"; };
+		377612F618F27C4C008AB160 /* QuickFox.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = QuickFox.wav; sourceTree = "<group>"; };
+		377612F818F27E67008AB160 /* QuickBrown.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuickBrown.plist; sourceTree = "<group>"; };
+		377612FA18F39879008AB160 /* PrompterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrompterViewController.h; sourceTree = "<group>"; };
+		377612FB18F39879008AB160 /* PrompterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrompterViewController.m; sourceTree = "<group>"; };
+		37988D5918F2E7F200021373 /* QuickBrown.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QuickBrown.txt; sourceTree = "<group>"; };
+		37988D5D18F2E88900021373 /* audacityToPlist.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = audacityToPlist.pl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377612EE18EFB8C0008AB160 /* AVFoundation.framework in Frameworks */,
 				377612BB18EFA65D008AB160 /* CoreGraphics.framework in Frameworks */,
 				377612BD18EFA65D008AB160 /* UIKit.framework in Frameworks */,
 				377612B918EFA65D008AB160 /* Foundation.framework in Frameworks */,
@@ -101,6 +118,7 @@
 		377612B718EFA65D008AB160 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				377612ED18EFB8C0008AB160 /* AVFoundation.framework */,
 				377612B818EFA65D008AB160 /* Foundation.framework */,
 				377612BA18EFA65D008AB160 /* CoreGraphics.framework */,
 				377612BC18EFA65D008AB160 /* UIKit.framework */,
@@ -115,8 +133,12 @@
 				377612C718EFA65D008AB160 /* AppDelegate.h */,
 				377612C818EFA65D008AB160 /* AppDelegate.m */,
 				377612CA18EFA65D008AB160 /* Main.storyboard */,
-				377612CD18EFA65D008AB160 /* ViewController.h */,
-				377612CE18EFA65D008AB160 /* ViewController.m */,
+				377612FA18F39879008AB160 /* PrompterViewController.h */,
+				377612FB18F39879008AB160 /* PrompterViewController.m */,
+				377612CE18EFA65D008AB160 /* SpeechSynthesisViewController.m */,
+				377612CD18EFA65D008AB160 /* SpeechSynthesisViewController.h */,
+				377612EF18F279F0008AB160 /* PrerecordedViewController.h */,
+				377612F018F279F0008AB160 /* PrerecordedViewController.m */,
 				377612D018EFA65D008AB160 /* Images.xcassets */,
 				377612BF18EFA65D008AB160 /* Supporting Files */,
 			);
@@ -126,6 +148,10 @@
 		377612BF18EFA65D008AB160 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				37988D5D18F2E88900021373 /* audacityToPlist.pl */,
+				37988D5918F2E7F200021373 /* QuickBrown.txt */,
+				377612F818F27E67008AB160 /* QuickBrown.plist */,
+				377612F618F27C4C008AB160 /* QuickFox.wav */,
 				377612C018EFA65D008AB160 /* 2014-Spring-ReadToMe-Info.plist */,
 				377612C118EFA65D008AB160 /* InfoPlist.strings */,
 				377612C418EFA65D008AB160 /* main.m */,
@@ -228,9 +254,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377612F918F27E67008AB160 /* QuickBrown.plist in Resources */,
+				37988D5E18F2E88900021373 /* audacityToPlist.pl in Resources */,
+				377612F718F27C4C008AB160 /* QuickFox.wav in Resources */,
 				377612D118EFA65D008AB160 /* Images.xcassets in Resources */,
 				377612C318EFA65D008AB160 /* InfoPlist.strings in Resources */,
 				377612CC18EFA65D008AB160 /* Main.storyboard in Resources */,
+				37988D5A18F2E7F200021373 /* QuickBrown.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				377612CF18EFA65D008AB160 /* ViewController.m in Sources */,
+				377612F118F279F0008AB160 /* PrerecordedViewController.m in Sources */,
+				377612CF18EFA65D008AB160 /* SpeechSynthesisViewController.m in Sources */,
 				377612C918EFA65D008AB160 /* AppDelegate.m in Sources */,
+				377612FC18F39879008AB160 /* PrompterViewController.m in Sources */,
 				377612C518EFA65D008AB160 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +488,7 @@
 				377612E918EFA65D008AB160 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		377612EA18EFA65D008AB160 /* Build configuration list for PBXNativeTarget "2014-Spring-ReadToMeTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +497,7 @@
 				377612EC18EFA65D008AB160 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
